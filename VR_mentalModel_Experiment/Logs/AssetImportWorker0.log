@@ -15,12 +15,12 @@ C:/Users/TingYiChang/Desktop/VR mental model/VR_mentalModel_Experiment
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49891
+49625
 Successfully changed project path to: C:/Users/TingYiChang/Desktop/VR mental model/VR_mentalModel_Experiment
 C:/Users/TingYiChang/Desktop/VR mental model/VR_mentalModel_Experiment
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 132.77 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 1.36 ms.
+Refreshing native plugins compatible for Editor in 101.10 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.91 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/TingYiChang/Desktop/VR mental model/VR_mentalModel_Experiment/Assets
@@ -35,49 +35,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002686 seconds.
+Registered in 0.002098 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 93.57 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
+Refreshing native plugins compatible for Editor in 82.84 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.473 seconds
+- Completed reload, in  1.141 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1473ms)
-		BeginReloadAssembly (79ms)
+	ReloadAssembly (1141ms)
+		BeginReloadAssembly (62ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (521ms)
-			LoadAssemblies (76ms)
+		EndReloadAssembly (439ms)
+			LoadAssemblies (58ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (172ms)
+			SetupTypeCache (139ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (224ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (194ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (94ms)
+				RefreshPlugins (83ms)
 				BeforeProcessingInitializeOnLoad (8ms)
-				ProcessInitializeOnLoadAttributes (85ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				ProcessInitializeOnLoadAttributes (73ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012046 seconds.
+Registered in 0.010864 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 162.86 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
+Refreshing native plugins compatible for Editor in 82.23 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -98,45 +98,45 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.483 seconds
+- Completed reload, in  1.278 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2484ms)
-		BeginReloadAssembly (305ms)
+	ReloadAssembly (1279ms)
+		BeginReloadAssembly (137ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (2034ms)
-			LoadAssemblies (208ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1078ms)
+			LoadAssemblies (96ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (692ms)
+			SetupTypeCache (328ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (147ms)
-			SetupLoadedEditorAssemblies (732ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (456ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (163ms)
-				BeforeProcessingInitializeOnLoad (143ms)
-				ProcessInitializeOnLoadAttributes (380ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				RefreshPlugins (82ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (253ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 2.72 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.17 ms.
-Unloading 3703 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 165.0 MB.
-System memory in use after: 165.2 MB.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.07 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 3706 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.3 MB.
+System memory in use after: 165.5 MB.
 
-Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 4146.
-Total: 9.345900 ms (FindLiveObjects: 0.813000 ms CreateObjectMapping: 0.558500 ms MarkObjects: 7.853500 ms  DeleteObjects: 0.119400 ms)
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 4152.
+Total: 3.890600 ms (FindLiveObjects: 0.314000 ms CreateObjectMapping: 0.142700 ms MarkObjects: 3.343800 ms  DeleteObjects: 0.089400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -150,19 +150,987 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/ViveHandTracking/Sample/Sample.unity
-  artifactKey: Guid(c91b1c8776d228e4189c11d81856aba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ViveHandTracking/Sample/Sample.unity using Guid(c91b1c8776d228e4189c11d81856aba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5650221555e7900ae7a582b6bfb18d49') in 0.037186 seconds 
-  Import took 0.049785 seconds .
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_female_mat.mat
+  artifactKey: Guid(a1dcf79c43ef72540bb92b0142a3034c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_female_mat.mat using Guid(a1dcf79c43ef72540bb92b0142a3034c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6be1b41c19168ec2493b2c1d9d7eab') in 0.220322 seconds 
+  Import took 0.226555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_underwear_bra_white_mat.mat
+  artifactKey: Guid(200045b4efc2e514d981126244b19cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_underwear_bra_white_mat.mat using Guid(200045b4efc2e514d981126244b19cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31994e50360410ef325a31868f59923') in 0.023984 seconds 
+  Import took 0.029605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_sportswear_pants_granit_mat.mat
+  artifactKey: Guid(f753c02a486420a4e8b1091cf3eeffef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_sportswear_pants_granit_mat.mat using Guid(f753c02a486420a4e8b1091cf3eeffef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a18bcfe10de840e9bb57cc6da0a1ca') in 0.018707 seconds 
+  Import took 0.024169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_colors_top_bottom_mat.mat
+  artifactKey: Guid(dc15d326dd0c7eb4a85b35ba6f5dad4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_colors_top_bottom_mat.mat using Guid(dc15d326dd0c7eb4a85b35ba6f5dad4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf507e910030a1c828cf62c59cdab0f') in 0.018505 seconds 
+  Import took 0.024226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_female_shoes_tall_white.mat
+  artifactKey: Guid(d5a2c42af29740640999b29bd09c7b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_female_shoes_tall_white.mat using Guid(d5a2c42af29740640999b29bd09c7b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3914f89d244e20a45fc3ad6a1a7a51') in 0.019872 seconds 
+  Import took 0.024961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_female_tshirt_turquoise_mat.mat
+  artifactKey: Guid(7a7f461f7d97a544199b0ace3cd72f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_female_tshirt_turquoise_mat.mat using Guid(7a7f461f7d97a544199b0ace3cd72f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377d639bc79d3f753df671f8978a6a2f') in 0.020405 seconds 
+  Import took 0.025915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/eyes_D.mat
+  artifactKey: Guid(cc4d8884b140da248b4a0b025c445924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/eyes_D.mat using Guid(cc4d8884b140da248b4a0b025c445924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6cf87e02ff8fd45713dfde168fc1d4') in 0.017703 seconds 
+  Import took 0.022853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_female_underwear_whiteStriped_mat.mat
+  artifactKey: Guid(bebe1e3d92b123441a5bc0a07ca824ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_female_underwear_whiteStriped_mat.mat using Guid(bebe1e3d92b123441a5bc0a07ca824ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b24c1170a87b46898179305068ec0a') in 0.018462 seconds 
+  Import took 0.024022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_jacket_hive_mat.mat
+  artifactKey: Guid(fd5d0165e1170db4e9d45fec47b429be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_jacket_hive_mat.mat using Guid(fd5d0165e1170db4e9d45fec47b429be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5dcce6f5db1b3e1b1f318bdeebb5c9') in 0.018151 seconds 
+  Import took 0.023221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_female_sports_underwear_bottoms_mat.mat
+  artifactKey: Guid(aec7a81193b48e2419c42f79afeba223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_female_sports_underwear_bottoms_mat.mat using Guid(aec7a81193b48e2419c42f79afeba223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d23780a070f5034c548a30e841b737a') in 0.018666 seconds 
+  Import took 0.023952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_female_underwear_whiteLace_mat.mat
+  artifactKey: Guid(48961daae8ff9b048b47dc332259812b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_female_underwear_whiteLace_mat.mat using Guid(48961daae8ff9b048b47dc332259812b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397e9a34cc6e72821df26e269272acff') in 0.018736 seconds 
+  Import took 0.023811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_green_tights_mat.mat
+  artifactKey: Guid(f3fce46bd24315049a272158960e3381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_green_tights_mat.mat using Guid(f3fce46bd24315049a272158960e3381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a645b7b9ddf96118985d52c54636831c') in 0.018389 seconds 
+  Import took 0.024547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_female_underwear_greenPalettes_mat.mat
+  artifactKey: Guid(58bea753d8225b14e813e72dd5d0bea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_female_underwear_greenPalettes_mat.mat using Guid(58bea753d8225b14e813e72dd5d0bea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3019a8ac9a5de868e2c197eada944a35') in 0.018658 seconds 
+  Import took 0.024296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_underwear_bra_yellow_mat.mat
+  artifactKey: Guid(400556bd5b9c2d447a8a1d70c005dd2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_underwear_bra_yellow_mat.mat using Guid(400556bd5b9c2d447a8a1d70c005dd2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade65324bef65887e0f9d423c3fd8104') in 0.018572 seconds 
+  Import took 0.023505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/sportwear_pants_granit_D.mat
+  artifactKey: Guid(191fdfd660aedb34d85e3bbbdb6f27b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/sportwear_pants_granit_D.mat using Guid(191fdfd660aedb34d85e3bbbdb6f27b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5404ad141561a3ac5fa0488f92856d0f') in 0.018169 seconds 
+  Import took 0.023966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/LoveGlove.mat
+  artifactKey: Guid(bbed28d52b46eaf4cb1902747d5d9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/LoveGlove.mat using Guid(bbed28d52b46eaf4cb1902747d5d9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cebd8e8390041d7bfcb98324ff968ea') in 0.020037 seconds 
+  Import took 0.025142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_female_shoes_tall_mat.mat
+  artifactKey: Guid(9e14389e608cb3641af3bad716cc523c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_female_shoes_tall_mat.mat using Guid(9e14389e608cb3641af3bad716cc523c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef6a53bac1eaa62220eec9cdefcccf9') in 0.019431 seconds 
+  Import took 0.024844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_dress_tennis_granit_mat.mat
+  artifactKey: Guid(ff3c0495392de37409e1a52dd5d0c979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_dress_tennis_granit_mat.mat using Guid(ff3c0495392de37409e1a52dd5d0c979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9495caba3bf53162762fb3fc2bb5f7a') in 0.017096 seconds 
+  Import took 0.021995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_swimwear_black_mat.mat
+  artifactKey: Guid(b23c58de5b3b25140807e4d62197e483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_swimwear_black_mat.mat using Guid(b23c58de5b3b25140807e4d62197e483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711e2acdeddd63c99f005ee09a0f370c') in 0.017384 seconds 
+  Import took 0.023423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_underwear_bra_green_mat.mat
+  artifactKey: Guid(1a37ad49972f35e408840bad641122c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_underwear_bra_green_mat.mat using Guid(1a37ad49972f35e408840bad641122c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4889edf3b74f13aff61c042cdd91d730') in 0.018975 seconds 
+  Import took 0.024171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_sportswear_top_mat.mat
+  artifactKey: Guid(8cd11e7c5a09faa4da22d313ded98089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_sportswear_top_mat.mat using Guid(8cd11e7c5a09faa4da22d313ded98089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c848230fc47d8e043fd2f00ce9e7f8') in 0.020270 seconds 
+  Import took 0.025334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_female_underwear_purple_mat.mat
+  artifactKey: Guid(81eff01332d723a4698dd17a9d398583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_female_underwear_purple_mat.mat using Guid(81eff01332d723a4698dd17a9d398583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020e84fb1069c7fea7fc578ac2722ccc') in 0.017728 seconds 
+  Import took 0.022860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_Hoodie_turquoise_mat.mat
+  artifactKey: Guid(e723e639e0877384e80501e1aa49f425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_Hoodie_turquoise_mat.mat using Guid(e723e639e0877384e80501e1aa49f425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060c70de56fb555964bbf794be3fb71c') in 0.018384 seconds 
+  Import took 0.023689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_female_tights_stripe_mat.mat
+  artifactKey: Guid(aac318d4cb3f6f3488b5623edd7bf50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_female_tights_stripe_mat.mat using Guid(aac318d4cb3f6f3488b5623edd7bf50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a169be2ec7b86258af65ede89d8ef82') in 0.017843 seconds 
+  Import took 0.023699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_female_hair_mat.mat
+  artifactKey: Guid(30ee731d8956af547b9db2063ec4f4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_female_hair_mat.mat using Guid(30ee731d8956af547b9db2063ec4f4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a2ec1ac6ca16893616ae04db4d0ad5') in 0.015931 seconds 
+  Import took 0.021105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_female_skirt_turquoise_mat.mat
+  artifactKey: Guid(b4e39d3f2b295b142af907f2acca9b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_female_skirt_turquoise_mat.mat using Guid(b4e39d3f2b295b142af907f2acca9b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75805eac896373327f4f91157f0b9c9') in 0.020064 seconds 
+  Import took 0.025938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_tanktop_zebra_mat.mat
+  artifactKey: Guid(b44c0c29283f7bf40aa07f5b3560cdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_tanktop_zebra_mat.mat using Guid(b44c0c29283f7bf40aa07f5b3560cdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ba5fcdce2ac8276dc7f9eaeb7441cc') in 0.018359 seconds 
+  Import took 0.023581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_underwear_white_granit_mat.mat
+  artifactKey: Guid(b08a99e49eab60c4892d2420be9200b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_underwear_white_granit_mat.mat using Guid(b08a99e49eab60c4892d2420be9200b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55fd155edec38bfd33f82cb346c8bb4') in 0.018444 seconds 
+  Import took 0.023878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/shoes_tall_turquoise_D.mat
+  artifactKey: Guid(c8047cd295622f94f974e711c9be3999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/shoes_tall_turquoise_D.mat using Guid(c8047cd295622f94f974e711c9be3999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb2b8555bc99d2a7a97d1b94c22c2483') in 0.018121 seconds 
+  Import took 0.023470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_sportswear_top_granit_mat.mat
+  artifactKey: Guid(9f40be1c8f8b8724087de799658bc6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_sportswear_top_granit_mat.mat using Guid(9f40be1c8f8b8724087de799658bc6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50b9001c779b8d8846c6f562399ac4a') in 0.018740 seconds 
+  Import took 0.024279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_tanktop_whiteBlackStraps_mat.mat
+  artifactKey: Guid(9ed3e8b401de1824c842105c5ebeb537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_tanktop_whiteBlackStraps_mat.mat using Guid(9ed3e8b401de1824c842105c5ebeb537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1c87be6bf8af7102a24c56a15bf8f7') in 0.019552 seconds 
+  Import took 0.024823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_female_tights_purple_mat.mat
+  artifactKey: Guid(5c8dd4adddd9cfd499a8868b3b55ca0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_female_tights_purple_mat.mat using Guid(5c8dd4adddd9cfd499a8868b3b55ca0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f81067c2c0f58c4439a4a95dd23ebcb') in 0.018487 seconds 
+  Import took 0.024098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_female_tights_gray_mat.mat
+  artifactKey: Guid(33e1dbdc4fd63de4c8421437eeae1556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_female_tights_gray_mat.mat using Guid(33e1dbdc4fd63de4c8421437eeae1556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c4c80c994aca3f19ab59c6e1883e22') in 0.018670 seconds 
+  Import took 0.023717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_sportswear_sweater_granit_mat.mat
+  artifactKey: Guid(c32dc8f3104d4f24c84bc33d6e561de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_sportswear_sweater_granit_mat.mat using Guid(c32dc8f3104d4f24c84bc33d6e561de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb48894fec2c45949c57bcb0028d6dd') in 0.020585 seconds 
+  Import took 0.025667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_shorts_turquoise.mat
+  artifactKey: Guid(2bf5a270bdb45d24ea9561e03e43907a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_shorts_turquoise.mat using Guid(2bf5a270bdb45d24ea9561e03e43907a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2976d556ea4f0554d89e68e67b481df2') in 0.017013 seconds 
+  Import took 0.022012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_underwear_bra_purple_mat.mat
+  artifactKey: Guid(0333df4f2966f254faf61e85cca98a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_underwear_bra_purple_mat.mat using Guid(0333df4f2966f254faf61e85cca98a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a7cea2877f55e51b8af9265db37e32') in 0.020065 seconds 
+  Import took 0.024821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_tanktop_yellow_mat.mat
+  artifactKey: Guid(bca784376f8fa6b4f917f3f282b6f4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Material/Female/bb_tanktop_yellow_mat.mat using Guid(bca784376f8fa6b4f917f3f282b6f4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495753911fc8619ad81834fc31463eed') in 0.016754 seconds 
+  Import took 0.022198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.587141 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/3D/FemaleCharacter
+  artifactKey: Guid(7b7093366844fb048b1f9f81cd0e8aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/3D/FemaleCharacter using Guid(7b7093366844fb048b1f9f81cd0e8aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296bf29367bd2fd4c50ad535399c95e1') in 0.008763 seconds 
+  Import took 0.014471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.324392 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/3D/FemaleCharacter/FemaleCustomize.fbx
+  artifactKey: Guid(133d811bb01bcd94193efb9f33d1ebce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/3D/FemaleCharacter/FemaleCustomize.fbx using Guid(133d811bb01bcd94193efb9f33d1ebce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef3461fbe90dd125329dc417f89c4aa') in 0.671054 seconds 
+  Import took 0.687450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/3D/FemaleCharacter/Materials/bb_male_shoe_low_white_mat.mat
+  artifactKey: Guid(5110aebf58b8f5842a080069e0329115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/3D/FemaleCharacter/Materials/bb_male_shoe_low_white_mat.mat using Guid(5110aebf58b8f5842a080069e0329115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287dd4ad3bc7ee4b9e24d42621d62d13') in 0.019081 seconds 
+  Import took 0.025179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/3D/FemaleCharacter/Materials/LoveGlove_albedo_2K.mat
+  artifactKey: Guid(04be4c8a13cc7e24eb40fd5f1ff13ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/3D/FemaleCharacter/Materials/LoveGlove_albedo_2K.mat using Guid(04be4c8a13cc7e24eb40fd5f1ff13ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf97f7cc3b53999a96e85b436c08ea8') in 0.027905 seconds 
+  Import took 0.033090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/3D/FemaleCharacter/Materials
+  artifactKey: Guid(0c9de9f4e2a74064faade73acd1ccad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/3D/FemaleCharacter/Materials using Guid(0c9de9f4e2a74064faade73acd1ccad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8659b1a943b047165018520895c6735') in 0.008103 seconds 
+  Import took 0.012934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/3D/FemaleCharacter/Materials/bb_male_mat.mat
+  artifactKey: Guid(e46d3f6f2cc73814282e03c5ee2335e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/3D/FemaleCharacter/Materials/bb_male_mat.mat using Guid(e46d3f6f2cc73814282e03c5ee2335e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30ab10830a509990fc3ad6d8d49f95c') in 0.023193 seconds 
+  Import took 0.028328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.313471 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Eye_NM.png
+  artifactKey: Guid(ed3c359f7ab24d34fb038790f1b54c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Eye_NM.png using Guid(ed3c359f7ab24d34fb038790f1b54c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c998ce4ef530909a8e1871e98c84ccb0') in 0.022288 seconds 
+  Import took 0.027854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/eyes_D.png
+  artifactKey: Guid(656910dc3d7493a47b772195cebb4b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/eyes_D.png using Guid(656910dc3d7493a47b772195cebb4b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a314b09aadaca0a664afa592cf0430dc') in 0.017331 seconds 
+  Import took 0.023481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/LoveGlove_Emissive.png
+  artifactKey: Guid(5650e1f1aaf800e4785ac3347491718f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/LoveGlove_Emissive.png using Guid(5650e1f1aaf800e4785ac3347491718f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f78d10c16659c4aa4fd93a151a0ff9a') in 0.017636 seconds 
+  Import took 0.023191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/eyes_D.png
+  artifactKey: Guid(656910dc3d7493a47b772195cebb4b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/eyes_D.png using Guid(656910dc3d7493a47b772195cebb4b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a314b09aadaca0a664afa592cf0430dc') in 0.021942 seconds 
+  Import took 0.027089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/LoveGlove_albedo.PNG
+  artifactKey: Guid(9ef943becd400704b9e9e2170a3e8a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/LoveGlove_albedo.PNG using Guid(9ef943becd400704b9e9e2170a3e8a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5318fad03c0989de848fc1b30df0f2e') in 0.022760 seconds 
+  Import took 0.027614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/eyes_SG.tga
+  artifactKey: Guid(6cfd23545b6b695438ff34c5f76aaa0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/eyes_SG.tga using Guid(6cfd23545b6b695438ff34c5f76aaa0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf81706b628ffb49b8bd421f2e73d66') in 0.017406 seconds 
+  Import took 0.022311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/LoveGlove_Specular.TGA
+  artifactKey: Guid(e1d1204b0db7cd145bdd7210c14b1be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/LoveGlove_Specular.TGA using Guid(e1d1204b0db7cd145bdd7210c14b1be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5956b8397b6b7651c03d898be849a929') in 0.020817 seconds 
+  Import took 0.026122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/eyes_SG.tga
+  artifactKey: Guid(6cfd23545b6b695438ff34c5f76aaa0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/eyes_SG.tga using Guid(6cfd23545b6b695438ff34c5f76aaa0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf81706b628ffb49b8bd421f2e73d66') in 0.016885 seconds 
+  Import took 0.021947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/LoveGlove_normal.png
+  artifactKey: Guid(129e09330aaa6424b9d18cea4ff4f9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/LoveGlove_normal.png using Guid(129e09330aaa6424b9d18cea4ff4f9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1d42b3e8bd57d5e87cb85708e82595') in 0.018498 seconds 
+  Import took 0.024389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 189.400344 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female
+  artifactKey: Guid(dcaa44111ea6f3445b01a4368131e10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female using Guid(dcaa44111ea6f3445b01a4368131e10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d232690fb4af084e09e793a28b7613d') in 0.007992 seconds 
+  Import took 0.014039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070374 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/bb_female_D.tif
+  artifactKey: Guid(f4f28b270889a0b47a4747a9b5bb6a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/bb_female_D.tif using Guid(f4f28b270889a0b47a4747a9b5bb6a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac9b1d89fb4341bf6201c7a501e50d5') in 0.021641 seconds 
+  Import took 0.026921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/shoe_low_white_D.tif
+  artifactKey: Guid(5ffe5bb183a322248826449c17e0545d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/shoe_low_white_D.tif using Guid(5ffe5bb183a322248826449c17e0545d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e9bf9538427dd54d5faa80736b8d25') in 0.017331 seconds 
+  Import took 0.022261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/skirt_turquoise_NM.tif
+  artifactKey: Guid(abea85887aeb08749be2d41ec811d198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/skirt_turquoise_NM.tif using Guid(abea85887aeb08749be2d41ec811d198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b76646a7e8a11cd4944c3fcab26f6fd') in 0.015802 seconds 
+  Import took 0.021278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/dress_tennis_granit_NM.tif
+  artifactKey: Guid(122c9e0b04eed0743b2347c96f46016c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/dress_tennis_granit_NM.tif using Guid(122c9e0b04eed0743b2347c96f46016c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb4be6f97df6a9b31caf48aaf5bb5c6') in 0.015844 seconds 
+  Import took 0.021521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/Hoodie_turquoise_AO.tif
+  artifactKey: Guid(095d9508f20a77c44b6a069e866fab8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/Hoodie_turquoise_AO.tif using Guid(095d9508f20a77c44b6a069e866fab8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf3b7d74818a3ed50af284cfc761bc8') in 0.015003 seconds 
+  Import took 0.020323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sportswear_top_granit_SG.tif
+  artifactKey: Guid(437834702ecfed24cb7cd5d51b3282f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sportswear_top_granit_SG.tif using Guid(437834702ecfed24cb7cd5d51b3282f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843ff2c142a1eb9c702a380224b8a0cf') in 0.013790 seconds 
+  Import took 0.019517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/shoe_low_white_NM.tif
+  artifactKey: Guid(13778cdcc3d25a847a3723dc6d703052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/shoe_low_white_NM.tif using Guid(13778cdcc3d25a847a3723dc6d703052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de70a6c02b67ff609be855af5499aeb2') in 0.014951 seconds 
+  Import took 0.021400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/shoes_tall_turquoise_SG.tif
+  artifactKey: Guid(2790bbcd9724c3a40b714ef958b603b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/shoes_tall_turquoise_SG.tif using Guid(2790bbcd9724c3a40b714ef958b603b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090d396949d2358e00c6e05b91f09b15') in 0.013761 seconds 
+  Import took 0.019289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/skirt_turquoise_SG.tif
+  artifactKey: Guid(3c0531ece21738f42af2fbbcd9a46091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/skirt_turquoise_SG.tif using Guid(3c0531ece21738f42af2fbbcd9a46091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12cc2d1c00e6fe35170141fc84152b21') in 0.013979 seconds 
+  Import took 0.019603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/colors_top_bottom_AO.tif
+  artifactKey: Guid(b7a8cd3a2f85fdb4a97bd141cff33e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/colors_top_bottom_AO.tif using Guid(b7a8cd3a2f85fdb4a97bd141cff33e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2e80629e330edb675c648ba366e265') in 0.013665 seconds 
+  Import took 0.020043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/colors_top_bottom_NM.tif
+  artifactKey: Guid(09ed469e230c6394c915994ccfe3f0b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/colors_top_bottom_NM.tif using Guid(09ed469e230c6394c915994ccfe3f0b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7887d9fcddd39d47c670026fc1e48f2') in 0.015229 seconds 
+  Import took 0.020632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/swimwear_black_DA.tif
+  artifactKey: Guid(5c4de2f3425cef74594b292f94e43b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/swimwear_black_DA.tif using Guid(5c4de2f3425cef74594b292f94e43b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7cdd0b76ceea0667521444956d6697') in 0.013453 seconds 
+  Import took 0.019093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/jacket_hive_AO.tif
+  artifactKey: Guid(1d40d62fc19152b4fbc43eb9f3c351ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/jacket_hive_AO.tif using Guid(1d40d62fc19152b4fbc43eb9f3c351ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96d16dea611b80849bfc0d2eb47f692') in 0.013925 seconds 
+  Import took 0.019940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/shoes_tall_black_AO.tif
+  artifactKey: Guid(90c41f017e79ba44bbe6efe8e4774d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/shoes_tall_black_AO.tif using Guid(90c41f017e79ba44bbe6efe8e4774d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '758cc69db19202dd9f4f469bb4a31323') in 0.013300 seconds 
+  Import took 0.018665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/jacket_hive_NM.tif
+  artifactKey: Guid(7a316fada754171448344edbc91b5f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/jacket_hive_NM.tif using Guid(7a316fada754171448344edbc91b5f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2102ed7e9e83294ad2c481159cf7605') in 0.014117 seconds 
+  Import took 0.019837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/colors_top_bottom_SG.tif
+  artifactKey: Guid(133a7e0f39fcc924abb39c738bdecc03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/colors_top_bottom_SG.tif using Guid(133a7e0f39fcc924abb39c738bdecc03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2439e6cd22a34b95810b1449d8737277') in 0.013056 seconds 
+  Import took 0.018529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/green_tights_AO.tif
+  artifactKey: Guid(c3808a45bfb8f2741a228b6cd1585965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/green_tights_AO.tif using Guid(c3808a45bfb8f2741a228b6cd1585965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf014877507cf3339954f33dc11108ce') in 0.012484 seconds 
+  Import took 0.018224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sportswear_top_granit_AO.tif
+  artifactKey: Guid(594fb490bcf08844796125c9c63476e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sportswear_top_granit_AO.tif using Guid(594fb490bcf08844796125c9c63476e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78eb7fe71c4760719566b30a7ef1f0b') in 0.014090 seconds 
+  Import took 0.019932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/shoes_tall_black_NM.tif
+  artifactKey: Guid(2f1ca83d8623d2c4b9032095b0849927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/shoes_tall_black_NM.tif using Guid(2f1ca83d8623d2c4b9032095b0849927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398a8f16add9b0fbb799d436d154bd70') in 0.014021 seconds 
+  Import took 0.019728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/shoe_low_white_AO.tif
+  artifactKey: Guid(c2ebb3780dc035a468b93d0798e4448a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/shoe_low_white_AO.tif using Guid(c2ebb3780dc035a468b93d0798e4448a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb42dc1349f41ae40fdc94d6ca3efa57') in 0.013563 seconds 
+  Import took 0.019293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sportwear_pants_granit_AO.tif
+  artifactKey: Guid(f7912ea2e256afc43abb579f0d023331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sportwear_pants_granit_AO.tif using Guid(f7912ea2e256afc43abb579f0d023331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b0655828e6e8214a26cdd2d97052c4b') in 0.013078 seconds 
+  Import took 0.018758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/colors_top_bottom_D.tif
+  artifactKey: Guid(d18dbe1996947a1459b6d9fe34367ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/colors_top_bottom_D.tif using Guid(d18dbe1996947a1459b6d9fe34367ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a052510e05cff7d28618a2537a94a3') in 0.013446 seconds 
+  Import took 0.019116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/Hoodie_turquoise_D.tif
+  artifactKey: Guid(ef531cfd402f4c94aa4fb481e69b7b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/Hoodie_turquoise_D.tif using Guid(ef531cfd402f4c94aa4fb481e69b7b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f700770d204d283f99bd025d96236333') in 0.014464 seconds 
+  Import took 0.020423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/Hoodie_turquoise_NM.tif
+  artifactKey: Guid(e6f30788dea39154eafb62891cc4c7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/Hoodie_turquoise_NM.tif using Guid(e6f30788dea39154eafb62891cc4c7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83beee5a70d8e6ca3c88318228437453') in 0.014435 seconds 
+  Import took 0.020911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sports_underwear_bottoms_D.tif
+  artifactKey: Guid(4f9b04725cdac4b4a873b5b3e1499e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sports_underwear_bottoms_D.tif using Guid(4f9b04725cdac4b4a873b5b3e1499e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25e0f27c425642c3b15a76b4d089f41') in 0.013029 seconds 
+  Import took 0.018605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sportswear_top_D.tif
+  artifactKey: Guid(8c124b84dbbd0f9428241e63d0957733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sportswear_top_D.tif using Guid(8c124b84dbbd0f9428241e63d0957733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d86ebc36e286c3f1384a4a0d094fab') in 0.013160 seconds 
+  Import took 0.018645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/bb_female_SG.tif
+  artifactKey: Guid(5fdf5dd535107f748a3118fa718123eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/bb_female_SG.tif using Guid(5fdf5dd535107f748a3118fa718123eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6026da08b17879ceeac65df73ccbe18') in 0.013789 seconds 
+  Import took 0.019323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/bb_female_NM.tif
+  artifactKey: Guid(72ddb93cf9e3ca342a06f896a02440f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/bb_female_NM.tif using Guid(72ddb93cf9e3ca342a06f896a02440f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da5696df1aecf6c5a2612cf9c9f4a1f') in 0.014911 seconds 
+  Import took 0.021094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/shorts_turquoise_SG.tif
+  artifactKey: Guid(0b7619d883e6c7f41a334bc318cb0a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/shorts_turquoise_SG.tif using Guid(0b7619d883e6c7f41a334bc318cb0a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c418d5f03b86e3d49517c37f8d6a45ca') in 0.013399 seconds 
+  Import took 0.018821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sports_underwear_bottoms_AO.tif
+  artifactKey: Guid(85ec816eda56fe94797166f9f0658169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sports_underwear_bottoms_AO.tif using Guid(85ec816eda56fe94797166f9f0658169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c11ad64d9140e718baf8857b1487e23') in 0.013189 seconds 
+  Import took 0.018665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/green_tights_SG.tif
+  artifactKey: Guid(21551e96c9d54844c9adf8db66e15646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/green_tights_SG.tif using Guid(21551e96c9d54844c9adf8db66e15646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac344c729e817e50d89546404b738bd') in 0.013162 seconds 
+  Import took 0.018793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sportswear_top_granit_NM.tif
+  artifactKey: Guid(f8681d6e610a47b488c2cc683cbaf9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sportswear_top_granit_NM.tif using Guid(f8681d6e610a47b488c2cc683cbaf9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494909976ffa1ebf5e29c3bdef51896a') in 0.014969 seconds 
+  Import took 0.020774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/jacket_hive_D.tif
+  artifactKey: Guid(4fe0c4516f33aa448bde08363f8b2959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/jacket_hive_D.tif using Guid(4fe0c4516f33aa448bde08363f8b2959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf5fe365f9a30a4a4f9ebc37dde49be') in 0.014064 seconds 
+  Import took 0.019529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sportswear_top_granit_D.tif
+  artifactKey: Guid(4fcfaa376fc7442458afa766913f53a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sportswear_top_granit_D.tif using Guid(4fcfaa376fc7442458afa766913f53a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e30826cdedbf724d39381493896c908') in 0.013713 seconds 
+  Import took 0.018860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sportwear_pants_granit_SG.tif
+  artifactKey: Guid(86eb2ebc268e89c4ab43b2124fb704f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sportwear_pants_granit_SG.tif using Guid(86eb2ebc268e89c4ab43b2124fb704f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6703f71ea698b18901d62c1eb5a971e') in 0.015294 seconds 
+  Import took 0.020607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/green_tights_D.tif
+  artifactKey: Guid(d70b0acb98138c84c8a4b500df1ea204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/green_tights_D.tif using Guid(d70b0acb98138c84c8a4b500df1ea204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3842c978b4dfe763d123362161937bc3') in 0.015067 seconds 
+  Import took 0.020164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sportswear_top_NM.tif
+  artifactKey: Guid(5dcd887f54c2ef24984df2c2d292fdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sportswear_top_NM.tif using Guid(5dcd887f54c2ef24984df2c2d292fdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda1dee5f262c049042a82c66a14c9f5') in 0.015994 seconds 
+  Import took 0.021185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/dress_tennis_granit_D.tif
+  artifactKey: Guid(a6208a7d72f55a54b898a0c2cd980f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/dress_tennis_granit_D.tif using Guid(a6208a7d72f55a54b898a0c2cd980f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954ac4893bfcceeee3519fbd8bbe4787') in 0.013675 seconds 
+  Import took 0.019839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/jacket_hive_SG.tif
+  artifactKey: Guid(a94f484bd3033ba418ab8d064a28a17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/jacket_hive_SG.tif using Guid(a94f484bd3033ba418ab8d064a28a17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14579c315a4e72578892777f186235dc') in 0.015186 seconds 
+  Import took 0.020574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/swimwear_black_AO.tif
+  artifactKey: Guid(32150003259b4504baa36651f3cce297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/swimwear_black_AO.tif using Guid(32150003259b4504baa36651f3cce297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc7dab0b57b022f400ef4c2c6a02da9') in 0.014358 seconds 
+  Import took 0.019843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/Hoodie_turquoise_SG.tif
+  artifactKey: Guid(d0cd20e149e703b4e9df54d1b1b742b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/Hoodie_turquoise_SG.tif using Guid(d0cd20e149e703b4e9df54d1b1b742b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04918c13644ab69fce6f418f3386d82') in 0.013138 seconds 
+  Import took 0.018773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/bb_female_hair_DA.tif
+  artifactKey: Guid(120d6efac32b69e46bf0aadfae34354b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/bb_female_hair_DA.tif using Guid(120d6efac32b69e46bf0aadfae34354b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c203328827f324d3d846b7f336c1dd') in 0.013031 seconds 
+  Import took 0.018527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/skirt_turquoise_D.tif
+  artifactKey: Guid(4c3cab45dedb7b64f9ea147ddef60c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/skirt_turquoise_D.tif using Guid(4c3cab45dedb7b64f9ea147ddef60c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3be12c79d52ae6bdaaa6124430417f') in 0.013164 seconds 
+  Import took 0.018928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/shoes_tall_turquoise_D.tif
+  artifactKey: Guid(1cf3378788907104cb0bc65cca1d3d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/shoes_tall_turquoise_D.tif using Guid(1cf3378788907104cb0bc65cca1d3d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dedaf1282d3c7a0922c225d96fc6b7aa') in 0.013334 seconds 
+  Import took 0.019034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sportswear_top_SG.tif
+  artifactKey: Guid(e9956446c9453d94cbc9be2702a09096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sportswear_top_SG.tif using Guid(e9956446c9453d94cbc9be2702a09096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fcbeda5e5034b26d39aa7be4918c69b') in 0.013908 seconds 
+  Import took 0.019141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/shoes_tall_white_D.tif
+  artifactKey: Guid(beee14f1f767aae49ad97884aed258dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/shoes_tall_white_D.tif using Guid(beee14f1f767aae49ad97884aed258dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8394009a8b2c34f6fb824965be508eb4') in 0.014167 seconds 
+  Import took 0.019949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/shorts_turquoise_NM.tif
+  artifactKey: Guid(0cac730b93058ec439a85efc9a6305ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/shorts_turquoise_NM.tif using Guid(0cac730b93058ec439a85efc9a6305ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c28481bf1f997377173a2625adefd5') in 0.014790 seconds 
+  Import took 0.020089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sportswear_sweater_granit_AO.tif
+  artifactKey: Guid(f42df39a77fee1147918fbeb572966ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sportswear_sweater_granit_AO.tif using Guid(f42df39a77fee1147918fbeb572966ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '576febdb44b68315d4a9abd191fe7ab4') in 0.013679 seconds 
+  Import took 0.019301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sportswear_sweater_granit_SG.tif
+  artifactKey: Guid(23b8a76160ecddb40a6f6f15bcbfbe6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sportswear_sweater_granit_SG.tif using Guid(23b8a76160ecddb40a6f6f15bcbfbe6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fdfff9d297bb4d13153530d762fc582') in 0.014771 seconds 
+  Import took 0.020348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sportwear_pants_granit_D.tif
+  artifactKey: Guid(30e6a23ddaf606e49ae863d9053734f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sportwear_pants_granit_D.tif using Guid(30e6a23ddaf606e49ae863d9053734f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0703c8e889f846dfba3025bbfcbe9ffa') in 0.012144 seconds 
+  Import took 0.018573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sports_underwear_bottoms_SG.tif
+  artifactKey: Guid(def7052f7941fe94f90dc45cc358e57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sports_underwear_bottoms_SG.tif using Guid(def7052f7941fe94f90dc45cc358e57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85e5d4a771fee8bfdf21b2416b8ed0d') in 0.014708 seconds 
+  Import took 0.021071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/shoe_low_white_SG.tif
+  artifactKey: Guid(60239923fe923094f831e05be479b5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/shoe_low_white_SG.tif using Guid(60239923fe923094f831e05be479b5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ee87e69ef810019f5bb920c779fff6') in 0.016507 seconds 
+  Import took 0.023324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/dress_tennis_granit_AO.tif
+  artifactKey: Guid(05e233feab76f1f4f9f489447bf8ad5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/dress_tennis_granit_AO.tif using Guid(05e233feab76f1f4f9f489447bf8ad5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c05ca1d780a907a52d28b281d802c80') in 0.014057 seconds 
+  Import took 0.019585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/shorts_turquoise_AO.tif
+  artifactKey: Guid(da0afde16f26b6c4988cf92954e9ba16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/shorts_turquoise_AO.tif using Guid(da0afde16f26b6c4988cf92954e9ba16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80aa24ad356d0c9e09d02dece8c84e68') in 0.014971 seconds 
+  Import took 0.020415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sportwear_pants_granit_NM.tif
+  artifactKey: Guid(47a43e65af9ca6c458b1d6873b42a1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sportwear_pants_granit_NM.tif using Guid(47a43e65af9ca6c458b1d6873b42a1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a0e35152cd9a61283d0da2c3f58811') in 0.014690 seconds 
+  Import took 0.020167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/green_tights_NM.tif
+  artifactKey: Guid(6a46f8a7810485a49b832b3105ffb93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/green_tights_NM.tif using Guid(6a46f8a7810485a49b832b3105ffb93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '092224aa2179f1a0f25e8c275b46876a') in 0.014575 seconds 
+  Import took 0.020302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/skirt_turquoise_AO.tif
+  artifactKey: Guid(01b5384b25bb2814fb747ee1ead0def0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/skirt_turquoise_AO.tif using Guid(01b5384b25bb2814fb747ee1ead0def0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a1b2fcb170e29d6c9f190c36b8093a') in 0.015445 seconds 
+  Import took 0.020695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sportswear_sweater_granit_D.tif
+  artifactKey: Guid(d63cb1bd23864cb45b8f45960aba5da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sportswear_sweater_granit_D.tif using Guid(d63cb1bd23864cb45b8f45960aba5da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679a27cf4798ac6d05c6e0a7cc5be1ad') in 0.013565 seconds 
+  Import took 0.019115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/dress_tennis_granit_SG.tif
+  artifactKey: Guid(7f02c255b5769704b9ec85a2fdc93b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/dress_tennis_granit_SG.tif using Guid(7f02c255b5769704b9ec85a2fdc93b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95596f0dadb867ffa985dc5aec57507e') in 0.014110 seconds 
+  Import took 0.019283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sportswear_sweater_granit_NM.tif
+  artifactKey: Guid(7bcb1c6228ac4be4eb9ec117cccb508e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sportswear_sweater_granit_NM.tif using Guid(7bcb1c6228ac4be4eb9ec117cccb508e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383c3840e6f7ecc3a47f5cb1f738d8d6') in 0.014923 seconds 
+  Import took 0.020370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/shorts_turquoise_D.tif
+  artifactKey: Guid(918fe21a2aad1c04281fd4c458ae1dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/shorts_turquoise_D.tif using Guid(918fe21a2aad1c04281fd4c458ae1dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb42574c92eee94f46f60d536f3eaeaf') in 0.013474 seconds 
+  Import took 0.018827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sportswear_top_A.tif
+  artifactKey: Guid(ed063f52d82c0654eacbb3056d5d3070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sportswear_top_A.tif using Guid(ed063f52d82c0654eacbb3056d5d3070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589beaa3bfeebcfcc4be42b9917076eb') in 0.013429 seconds 
+  Import took 0.018776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/shoes_tall_black_SG.tif
+  artifactKey: Guid(1f252d2bf07972b4495a6706faca12df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/shoes_tall_black_SG.tif using Guid(1f252d2bf07972b4495a6706faca12df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a875529cb45a129ea8e0d2553fcdb6') in 0.014635 seconds 
+  Import took 0.019864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sports_underwear_bottoms_NM.tif
+  artifactKey: Guid(8fb2a2232ab17bb41abbf6162f4abe3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/sports_underwear_bottoms_NM.tif using Guid(8fb2a2232ab17bb41abbf6162f4abe3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4638ee93fd1f3321736d7453cdcc08c') in 0.014579 seconds 
+  Import took 0.020368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/shoes_tall_black_D.tif
+  artifactKey: Guid(9428734933689264583fd7b51932e2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/shoes_tall_black_D.tif using Guid(9428734933689264583fd7b51932e2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7faa9b6082efd92b54fe819737e42b16') in 0.013755 seconds 
+  Import took 0.018914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002057 seconds.
+  path: Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/shoes_tall_black_D.tif
+  artifactKey: Guid(9428734933689264583fd7b51932e2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPL_ISBIT/Female_CharacterPack/Textures/Female/shoes_tall_black_D.tif using Guid(9428734933689264583fd7b51932e2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7faa9b6082efd92b54fe819737e42b16') in 0.012716 seconds 
+  Import took 0.018105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1277.495378 seconds.
+  path: Assets/EverydayMotionPackFree/Model/Materials/texture_female.mat
+  artifactKey: Guid(5f692961e8c8a8042b78d37f80975d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EverydayMotionPackFree/Model/Materials/texture_female.mat using Guid(5f692961e8c8a8042b78d37f80975d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e002ccd4f9ef2437b827c8520dff88a4') in 0.018340 seconds 
+  Import took 0.024726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/EverydayMotionPackFree/Model/Materials/texture_male.mat
+  artifactKey: Guid(fb61ab07168aafd459e9f6906d4c1fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EverydayMotionPackFree/Model/Materials/texture_male.mat using Guid(fb61ab07168aafd459e9f6906d4c1fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9161ea18bcefceb29c3b11f15b392c') in 0.023396 seconds 
+  Import took 0.028408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004523 seconds.
+  path: Assets/EverydayMotionPackFree/Model/Materials/texture_male.mat
+  artifactKey: Guid(fb61ab07168aafd459e9f6906d4c1fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EverydayMotionPackFree/Model/Materials/texture_male.mat using Guid(fb61ab07168aafd459e9f6906d4c1fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9161ea18bcefceb29c3b11f15b392c') in 0.020491 seconds 
+  Import took 0.026375 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.020219 seconds.
+Registered in 0.013460 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.34 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
+Refreshing native plugins compatible for Editor in 2.13 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\TingYiChang\Desktop\VR mental model\VR_mentalModel_Experiment\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\TingYiChang\Desktop\VR mental model\VR_mentalModel_Experiment\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
@@ -179,42 +1147,42 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.655 seconds
+- Completed reload, in  1.923 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1656ms)
-		BeginReloadAssembly (168ms)
+	ReloadAssembly (1923ms)
+		BeginReloadAssembly (256ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (54ms)
-		EndReloadAssembly (1396ms)
-			LoadAssemblies (142ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (1537ms)
+			LoadAssemblies (229ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (485ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (499ms)
+			SetupTypeCache (601ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (408ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (110ms)
-				ProcessInitializeOnLoadAttributes (351ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (275ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.48 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
-Unloading 3541 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 154.6 MB.
-System memory in use after: 154.8 MB.
+Refreshing native plugins compatible for Editor in 2.29 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 3544 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.9 MB.
+System memory in use after: 175.2 MB.
 
-Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 4149.
-Total: 5.359500 ms (FindLiveObjects: 0.448400 ms CreateObjectMapping: 0.384000 ms MarkObjects: 4.486800 ms  DeleteObjects: 0.038900 ms)
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 4241.
+Total: 5.568900 ms (FindLiveObjects: 0.571900 ms CreateObjectMapping: 0.528100 ms MarkObjects: 4.422400 ms  DeleteObjects: 0.045000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -226,3 +1194,1125 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011331 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.60 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\TingYiChang\Desktop\VR mental model\VR_mentalModel_Experiment\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\TingYiChang\Desktop\VR mental model\VR_mentalModel_Experiment\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.331 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1332ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1099ms)
+			LoadAssemblies (136ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (346ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (398ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (275ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.38 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 3544 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.0 MB.
+System memory in use after: 175.3 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 4244.
+Total: 4.967400 ms (FindLiveObjects: 0.300900 ms CreateObjectMapping: 0.214200 ms MarkObjects: 4.417700 ms  DeleteObjects: 0.033500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013442 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.61 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\TingYiChang\Desktop\VR mental model\VR_mentalModel_Experiment\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\TingYiChang\Desktop\VR mental model\VR_mentalModel_Experiment\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.331 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1331ms)
+		BeginReloadAssembly (160ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1101ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (368ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (397ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (277ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.98 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 3544 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.0 MB.
+System memory in use after: 175.2 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 4247.
+Total: 4.397800 ms (FindLiveObjects: 0.385000 ms CreateObjectMapping: 0.253400 ms MarkObjects: 3.722700 ms  DeleteObjects: 0.035500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011271 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\TingYiChang\Desktop\VR mental model\VR_mentalModel_Experiment\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\TingYiChang\Desktop\VR mental model\VR_mentalModel_Experiment\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.339 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1339ms)
+		BeginReloadAssembly (160ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1108ms)
+			LoadAssemblies (113ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (358ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (405ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (282ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 3544 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.1 MB.
+System memory in use after: 175.3 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 4250.
+Total: 4.630700 ms (FindLiveObjects: 0.393100 ms CreateObjectMapping: 0.223600 ms MarkObjects: 3.958700 ms  DeleteObjects: 0.053900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010898 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\TingYiChang\Desktop\VR mental model\VR_mentalModel_Experiment\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\TingYiChang\Desktop\VR mental model\VR_mentalModel_Experiment\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.276 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1277ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1078ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (342ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (392ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (267ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.50 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 3544 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.1 MB.
+System memory in use after: 175.4 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 4253.
+Total: 4.539200 ms (FindLiveObjects: 0.310500 ms CreateObjectMapping: 0.194100 ms MarkObjects: 4.000100 ms  DeleteObjects: 0.033500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011941 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\TingYiChang\Desktop\VR mental model\VR_mentalModel_Experiment\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\TingYiChang\Desktop\VR mental model\VR_mentalModel_Experiment\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.248 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1249ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1057ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (343ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (377ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (264ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 3544 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.0 MB.
+System memory in use after: 175.3 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 4256.
+Total: 4.400900 ms (FindLiveObjects: 0.328700 ms CreateObjectMapping: 0.187700 ms MarkObjects: 3.846500 ms  DeleteObjects: 0.037200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011114 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\TingYiChang\Desktop\VR mental model\VR_mentalModel_Experiment\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\TingYiChang\Desktop\VR mental model\VR_mentalModel_Experiment\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.226 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1227ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1034ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (336ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (375ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (260ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.71 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Unloading 3544 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.1 MB.
+System memory in use after: 175.4 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 4259.
+Total: 4.364200 ms (FindLiveObjects: 0.480200 ms CreateObjectMapping: 0.316200 ms MarkObjects: 3.530800 ms  DeleteObjects: 0.036100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011967 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\TingYiChang\Desktop\VR mental model\VR_mentalModel_Experiment\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\TingYiChang\Desktop\VR mental model\VR_mentalModel_Experiment\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.147 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1148ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (971ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (318ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (346ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (242ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 3544 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.2 MB.
+System memory in use after: 175.4 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 4262.
+Total: 3.975500 ms (FindLiveObjects: 0.344100 ms CreateObjectMapping: 0.253000 ms MarkObjects: 3.348000 ms  DeleteObjects: 0.029600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1324.392942 seconds.
+  path: Assets/Art/MyAssets/Material/Black.mat
+  artifactKey: Guid(09836f45ee9139042be31ac66a18a1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MyAssets/Material/Black.mat using Guid(09836f45ee9139042be31ac66a18a1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f709cb4464d07d8f06059b06ccff337') in 0.197263 seconds 
+  Import took 0.204913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/Art/MyAssets/Material/FullyDark.mat
+  artifactKey: Guid(e6bf516edebdcf745a18bdd4a48d1f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MyAssets/Material/FullyDark.mat using Guid(e6bf516edebdcf745a18bdd4a48d1f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6062fcb65899439ba77b6809791dacb') in 0.021514 seconds 
+  Import took 0.029362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Art/MyAssets/Material/White.mat
+  artifactKey: Guid(61c445c000eddf549a042af0328237e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MyAssets/Material/White.mat using Guid(61c445c000eddf549a042af0328237e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86ca3dda9d7d63736767296bcad91f7') in 0.026589 seconds 
+  Import took 0.033094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Art/MyAssets/Material/Orange.mat
+  artifactKey: Guid(25e3e01e4c763a74b9f9c34b279134ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MyAssets/Material/Orange.mat using Guid(25e3e01e4c763a74b9f9c34b279134ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3071a6206a9403de8fbca64d18135899') in 0.024234 seconds 
+  Import took 0.030332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002619 seconds.
+  path: Assets/Art/MyAssets/Material/Orange.mat
+  artifactKey: Guid(25e3e01e4c763a74b9f9c34b279134ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MyAssets/Material/Orange.mat using Guid(25e3e01e4c763a74b9f9c34b279134ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3071a6206a9403de8fbca64d18135899') in 0.020739 seconds 
+  Import took 0.028256 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013149 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\TingYiChang\Desktop\VR mental model\VR_mentalModel_Experiment\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\TingYiChang\Desktop\VR mental model\VR_mentalModel_Experiment\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.667 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1667ms)
+		BeginReloadAssembly (207ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (98ms)
+		EndReloadAssembly (1352ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (559ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (382ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (269ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 3544 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.2 MB.
+System memory in use after: 175.4 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 4301.
+Total: 4.545800 ms (FindLiveObjects: 0.361500 ms CreateObjectMapping: 0.148600 ms MarkObjects: 3.995000 ms  DeleteObjects: 0.039600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011074 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\TingYiChang\Desktop\VR mental model\VR_mentalModel_Experiment\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\TingYiChang\Desktop\VR mental model\VR_mentalModel_Experiment\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.342 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1343ms)
+		BeginReloadAssembly (170ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1105ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (352ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (403ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (283ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.84 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 3544 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.3 MB.
+System memory in use after: 175.6 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 4304.
+Total: 4.875000 ms (FindLiveObjects: 0.368400 ms CreateObjectMapping: 0.176900 ms MarkObjects: 4.300500 ms  DeleteObjects: 0.028100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011266 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.49 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\TingYiChang\Desktop\VR mental model\VR_mentalModel_Experiment\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\TingYiChang\Desktop\VR mental model\VR_mentalModel_Experiment\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.331 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1331ms)
+		BeginReloadAssembly (174ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1088ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (356ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (382ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (267ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.25 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 3544 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.3 MB.
+System memory in use after: 175.6 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 4307.
+Total: 4.139300 ms (FindLiveObjects: 0.358800 ms CreateObjectMapping: 0.229700 ms MarkObjects: 3.522400 ms  DeleteObjects: 0.027400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010675 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\TingYiChang\Desktop\VR mental model\VR_mentalModel_Experiment\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\TingYiChang\Desktop\VR mental model\VR_mentalModel_Experiment\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.320 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1321ms)
+		BeginReloadAssembly (169ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1085ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (344ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (396ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (271ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.44 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 3544 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.2 MB.
+System memory in use after: 175.5 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 4310.
+Total: 5.429500 ms (FindLiveObjects: 0.486500 ms CreateObjectMapping: 0.305800 ms MarkObjects: 4.588300 ms  DeleteObjects: 0.047300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 533.929026 seconds.
+  path: Assets/SteamVR/Scripts/SteamVR_TrackedObject.cs
+  artifactKey: Guid(d37c2cf88f7c59f4c8cf5d3812568143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Scripts/SteamVR_TrackedObject.cs using Guid(d37c2cf88f7c59f4c8cf5d3812568143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc9f13aebb4de5eb122376c9f6d8a16') in 0.017764 seconds 
+  Import took 0.025218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011427 seconds.
+  path: Assets/SteamVR/Scripts/SteamVR_TrackedObject.cs
+  artifactKey: Guid(d37c2cf88f7c59f4c8cf5d3812568143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Scripts/SteamVR_TrackedObject.cs using Guid(d37c2cf88f7c59f4c8cf5d3812568143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc9f13aebb4de5eb122376c9f6d8a16') in 0.005507 seconds 
+  Import took 0.012951 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012457 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.57 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\TingYiChang\Desktop\VR mental model\VR_mentalModel_Experiment\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\TingYiChang\Desktop\VR mental model\VR_mentalModel_Experiment\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.334 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1335ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1133ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (352ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (435ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (288ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.53 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 3544 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.4 MB.
+System memory in use after: 175.6 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 4313.
+Total: 4.870500 ms (FindLiveObjects: 0.454200 ms CreateObjectMapping: 0.277200 ms MarkObjects: 4.104300 ms  DeleteObjects: 0.032300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011054 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\TingYiChang\Desktop\VR mental model\VR_mentalModel_Experiment\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\TingYiChang\Desktop\VR mental model\VR_mentalModel_Experiment\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.343 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1343ms)
+		BeginReloadAssembly (159ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1114ms)
+			LoadAssemblies (134ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (346ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (421ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (292ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.26 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 3544 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.4 MB.
+System memory in use after: 175.6 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 4316.
+Total: 4.276700 ms (FindLiveObjects: 0.377600 ms CreateObjectMapping: 0.265600 ms MarkObjects: 3.605500 ms  DeleteObjects: 0.027100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010787 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\TingYiChang\Desktop\VR mental model\VR_mentalModel_Experiment\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\TingYiChang\Desktop\VR mental model\VR_mentalModel_Experiment\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.347 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1348ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1148ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (347ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (415ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (282ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.27 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 3544 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.3 MB.
+System memory in use after: 175.5 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 4319.
+Total: 4.949100 ms (FindLiveObjects: 0.381000 ms CreateObjectMapping: 0.346500 ms MarkObjects: 4.192400 ms  DeleteObjects: 0.028200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010698 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\TingYiChang\Desktop\VR mental model\VR_mentalModel_Experiment\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\TingYiChang\Desktop\VR mental model\VR_mentalModel_Experiment\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.338 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1339ms)
+		BeginReloadAssembly (170ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1101ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (360ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (414ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (290ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.30 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 3544 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.4 MB.
+System memory in use after: 175.7 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 4322.
+Total: 5.098400 ms (FindLiveObjects: 0.383000 ms CreateObjectMapping: 0.175000 ms MarkObjects: 4.509000 ms  DeleteObjects: 0.030200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
