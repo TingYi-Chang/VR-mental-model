@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.createwithvrroom.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\TingYiChang\\Desktop\\VR mental model\\VR_mentalModel_Experiment\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "Create With VR Room [Testing]"
+        }
+      }
+    }
+  ]
+}
