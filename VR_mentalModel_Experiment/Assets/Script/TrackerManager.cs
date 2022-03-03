@@ -5,6 +5,7 @@ using Valve.VR;
 public enum TRACKER
 {
     Origin = 0,
+    Laptop = 1,
     //Tracker1 = 1,
     //Tracker2 = 2,
     //HC_Origin = 0,
@@ -163,6 +164,7 @@ public class TrackerManager : MonoBehaviour
     public Dictionary<string, string> SerialNumberToProp = new Dictionary<string, string>()
     {
         { "LHR-BE971ED9", "Origin" },
+        {"LHR-40A69F50", "Laptop"},
         //{ "LHR-1999943C", "Player1" },
         //{ "LHR-BF0A6A36", "1" },
         
