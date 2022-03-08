@@ -1084,6 +1084,7 @@ m_PackageAssets:
         - 2.0.0-pre.5
         - 2.0.0-pre.6
         - 2.0.0-pre.7
+        - 2.0.0
         compatible:
         - 0.0.6-preview
         - 0.9.0-preview
@@ -1102,6 +1103,7 @@ m_PackageAssets:
         - 2.0.0-pre.5
         - 2.0.0-pre.6
         - 2.0.0-pre.7
+        - 2.0.0
         verified: 
       dependencies:
       - name: com.unity.inputsystem
@@ -3404,9 +3406,11 @@ m_PackageAssets:
         - 2.1.6
         - 2.1.7
         - 2.1.8
+        - 2.1.9
         compatible:
         - 2.1.8
-        verified: 2.1.8
+        - 2.1.9
+        verified: 2.1.9
       dependencies:
       - name: com.unity.modules.vr
         version: 1.0.0

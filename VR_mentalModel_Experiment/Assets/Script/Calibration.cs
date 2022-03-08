@@ -5,7 +5,7 @@ using UnityEngine;
 public class Calibration : MonoBehaviour
 {
     public GameObject Tracker_Origin;
-    Vector3 offset = new Vector3(0f, -0.73f, 0f);
+    Vector3 offset = new Vector3(-1.67f, 0f, 2.25f);
 
     void Start()
     {
