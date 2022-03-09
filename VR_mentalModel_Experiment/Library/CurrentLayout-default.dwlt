@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Hierarchy
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -467,9 +467,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a6610000
-    m_LastClickedID: 24998
-    m_ExpandedIDs: 00000000d4600000d6600000d8600000da600000dc600000de600000e0600000e2600000e4600000e6600000e8600000ea600000ec600000ee600000f0600000f2600000f4600000f6600000f8600000fa600000fc600000fe60000000610000026100000461000006610000086100000a6100000c6100000e610000106100001261000014610000166100001861000000ca9a3b
+    m_SelectedIDs: 7a610000
+    m_LastClickedID: 24954
+    m_ExpandedIDs: 00000000aa600000ac600000ae600000b0600000b2600000b4600000b6600000b8600000ba600000bc600000be600000c0600000c2600000c4600000c6600000c8600000ca600000cc600000ce600000d0600000d2600000d4600000d6600000d8600000da600000dc600000de600000e0600000e2600000e4600000e6600000e8600000ea600000ec600000ee60000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -497,7 +497,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d4600000d6600000d8600000da600000dc600000de600000e0600000e2600000e4600000e6600000e8600000ea600000ec600000ee600000f0600000f2600000f4600000f6600000f8600000fa600000fc600000fe60000000610000026100000461000006610000086100000a6100000c6100000e6100001061000012610000146100001661000018610000
+    m_ExpandedIDs: 00000000aa600000ac600000ae600000b0600000b2600000b4600000b6600000b8600000ba600000bc600000be600000c0600000c2600000c4600000c6600000c8600000ca600000cc600000ce600000d0600000d2600000d4600000d6600000d8600000da600000dc600000de600000e0600000e2600000e4600000e6600000e8600000ea600000ec600000ee600000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -524,7 +524,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000092bd00002ebc0000d6bb0000f462000000000000067f0000ba0f010094570000e20e01003856000058480100a0c20000f4c50000164c0100c4700000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -617,10 +617,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 118}
-      m_SelectedIDs: 8cd3feff
-      m_LastClickedID: -76916
-      m_ExpandedIDs: 8cd3feffd0f2feffd4f2feffd8f2feffdef2feffd80bffffdc0bffffe00bffffe60bfffffcf1ffff00f2ffff06f3ffff84f9ffff88f9ffff8cf9ffff48fbfffff05200003a5400003a560000dc560000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: c8f6ffff
+      m_LastClickedID: -2360
+      m_ExpandedIDs: 8ef9ffff92f9ffff4efbffff30540000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -680,9 +680,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.45010266, y: 0.79160875, z: 0.756855}
+    m_Target: {x: -0.07110318, y: 1.2679181, z: 2.6679385}
     speed: 2
-    m_Value: {x: -0.45010266, y: 0.79160875, z: 0.756855}
+    m_Value: {x: -0.07110318, y: 1.2679181, z: 2.6679385}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -729,13 +729,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.17647192, y: 0.2465738, z: -0.0445617, w: -0.95205647}
+    m_Target: {x: -0.09877451, y: 0.052059226, z: -0.0040659993, w: -0.9939093}
     speed: 2
-    m_Value: {x: -0.17644209, y: 0.24653213, z: -0.044554166, w: -0.95189553}
+    m_Value: {x: -0.09875778, y: 0.052050408, z: -0.0040653106, w: -0.993741}
   m_Size:
-    m_Target: 0.23469406
+    m_Target: 0.36530596
     speed: 2
-    m_Value: 0.23469406
+    m_Value: 0.36530596
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -794,7 +794,7 @@ MonoBehaviour:
   m_TargetSize: {x: 1123, y: 626}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
-  m_RenderIMGUI: 0
+  m_RenderIMGUI: 1
   m_MaximizeOnPlay: 0
   m_UseMipMap: 0
   m_VSyncEnabled: 0
