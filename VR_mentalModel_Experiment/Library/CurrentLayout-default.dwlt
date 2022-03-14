@@ -17,11 +17,15 @@ MonoBehaviour:
     x: 0
     y: 43
     width: 1920
-    height: 989
+    height: 997
   m_ShowMode: 4
   m_Title: Hierarchy
   m_RootView: {fileID: 7}
+<<<<<<< HEAD
   m_MinSize: {x: 875, y: 300}
+=======
+  m_MinSize: {x: 875, y: 542}
+>>>>>>> 240f5c28 (feat: create a scene for preparation phase (chunk: others))
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -43,6 +47,7 @@ MonoBehaviour:
     x: 0
     y: 30
     width: 1920
+<<<<<<< HEAD
     height: 939
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
@@ -126,6 +131,42 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &6
+=======
+    height: 947
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
+  vertical: 1
+  controlID: 18
+--- !u!114 &3
+>>>>>>> 240f5c28 (feat: create a scene for preparation phase (chunk: others))
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+<<<<<<< HEAD
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+=======
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 10}
+  - {fileID: 4}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1920
+    height: 947
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
+  vertical: 0
+  controlID: 19
+--- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -135,12 +176,66 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1466
+    y: 0
+    width: 454
+    height: 947
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 275
+    height: 676
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 17}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+>>>>>>> 240f5c28 (feat: create a scene for preparation phase (chunk: others))
   m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 668
     width: 1442
     height: 271
@@ -150,6 +245,17 @@ MonoBehaviour:
   m_Panes:
   - {fileID: 14}
   - {fileID: 19}
+=======
+    y: 676
+    width: 1466
+    height: 271
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+  - {fileID: 20}
+>>>>>>> 240f5c28 (feat: create a scene for preparation phase (chunk: others))
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &7
@@ -173,8 +279,8 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1920
-    height: 989
-  m_MinSize: {x: 875, y: 300}
+    height: 997
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -202,8 +308,13 @@ MonoBehaviour:
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LoadedToolbars:
+<<<<<<< HEAD
   - {fileID: 20}
   m_MainToolbar: {fileID: 20}
+=======
+  - {fileID: 21}
+  m_MainToolbar: {fileID: 21}
+>>>>>>> 240f5c28 (feat: create a scene for preparation phase (chunk: others))
   m_LastLoadedLayoutName: 
 --- !u!114 &9
 MonoBehaviour:
@@ -221,7 +332,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 969
+    y: 977
     width: 1920
     height: 20
   m_MinSize: {x: 0, y: 0}
@@ -245,12 +356,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1442
     height: 939
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
   controlID: 52
+=======
+    width: 1466
+    height: 947
+  m_MinSize: {x: 403, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
+  vertical: 1
+  controlID: 79
+>>>>>>> 240f5c28 (feat: create a scene for preparation phase (chunk: others))
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -270,12 +390,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1442
     height: 668
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
   controlID: 53
+=======
+    width: 1466
+    height: 676
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
+  vertical: 0
+  controlID: 80
+>>>>>>> 240f5c28 (feat: create a scene for preparation phase (chunk: others))
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -293,6 +422,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 317
     y: 0
+<<<<<<< HEAD
     width: 1125
     height: 668
   m_MinSize: {x: 202, y: 221}
@@ -304,6 +434,20 @@ MonoBehaviour:
   - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 2
+=======
+    width: 1191
+    height: 676
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 18}
+  m_Panes:
+  - {fileID: 18}
+  - {fileID: 14}
+  - {fileID: 13}
+  - {fileID: 19}
+  m_Selected: 0
+  m_LastSelected: 3
+>>>>>>> 240f5c28 (feat: create a scene for preparation phase (chunk: others))
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -332,9 +476,12 @@ MonoBehaviour:
   m_ViewTransforms:
     m_KeySerializationHelper:
     - {fileID: 1167442392763923892, guid: 6a3cbc76c8f93ae489d9075bf4d1192c, type: 2}
+<<<<<<< HEAD
     - {fileID: 1107073712043375404, guid: 4a6603d8f8bf91b42814291c49fb70ac, type: 2}
     - {fileID: 1107061245269329328, guid: e224972105c8c484ebaeb7be222adf70, type: 2}
     - {fileID: 1107136501017928978, guid: 3f7508965513c8e44ae2ad90671c34a2, type: 2}
+=======
+>>>>>>> 240f5c28 (feat: create a scene for preparation phase (chunk: others))
     m_ValueSerializationHelper:
     - e00: 1
       e01: 0
@@ -417,6 +564,34 @@ MonoBehaviour:
   m_LayerEditor:
     m_SelectedLayerIndex: 0
 --- !u!114 &14
+<<<<<<< HEAD
+=======
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 455, y: 354}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Asset Store
+    m_Image: {fileID: -8693916549880196297, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 275
+    y: 73
+    width: 1189
+    height: 655
+  m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &15
+>>>>>>> 240f5c28 (feat: create a scene for preparation phase (chunk: others))
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -437,8 +612,13 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 741
     width: 1441
+=======
+    y: 749
+    width: 1465
+>>>>>>> 240f5c28 (feat: create a scene for preparation phase (chunk: others))
     height: 250
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -454,12 +634,17 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets/Prefab
+=======
+    - Assets/LargeFiles
+>>>>>>> 240f5c28 (feat: create a scene for preparation phase (chunk: others))
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
-  m_StartGridSize: 64
+  m_StartGridSize: 58
   m_LastFolders:
+<<<<<<< HEAD
   - Assets/Prefab
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\TingYiChang\Desktop\VR mental model\VR_mentalModel_Experiment
@@ -470,6 +655,18 @@ MonoBehaviour:
     m_SelectedIDs: 7a610000
     m_LastClickedID: 24954
     m_ExpandedIDs: 00000000aa600000ac600000ae600000b0600000b2600000b4600000b6600000b8600000ba600000bc600000be600000c0600000c2600000c4600000c6600000c8600000ca600000cc600000ce600000d0600000d2600000d4600000d6600000d8600000da600000dc600000de600000e0600000e2600000e4600000e6600000e8600000ea600000ec600000ee60000000ca9a3b
+=======
+  - Assets/LargeFiles
+  m_LastFoldersGridSize: 58
+  m_LastProjectPath: C:\Users\frank\Desktop\VR-mental-model\VR_mentalModel_Experiment
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 962b0100
+    m_LastClickedID: 76694
+    m_ExpandedIDs: 000000004c1501004e15010050150100521501005415010056150100581501005a1501005c1501005e15010060150100621501006415010066150100681501006a1501006c1501006e15010070150100721501007415010076150100781501007a1501007c1501007e1501008015010086150100881501008a1501008c1501008e150100901501009215010094150100961501009c150100b8150100e41501003416010000ca9a3b
+>>>>>>> 240f5c28 (feat: create a scene for preparation phase (chunk: others))
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -497,7 +694,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000aa600000ac600000ae600000b0600000b2600000b4600000b6600000b8600000ba600000bc600000be600000c0600000c2600000c4600000c6600000c8600000ca600000cc600000ce600000d0600000d2600000d4600000d6600000d8600000da600000dc600000de600000e0600000e2600000e4600000e6600000e8600000ea600000ec600000ee600000
+=======
+    m_ExpandedIDs: 000000004c1501004e15010050150100521501005415010056150100581501005a1501005c1501005e15010060150100621501006415010066150100681501006a1501006c1501006e15010070150100721501007415010076150100781501007a1501007c1501007e15010080150100821501008415010086150100881501008a1501008c1501008e15010090150100921501009415010096150100981501009a1501009c1501009e150100
+>>>>>>> 240f5c28 (feat: create a scene for preparation phase (chunk: others))
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -525,7 +726,11 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
+<<<<<<< HEAD
     m_ExpandedInstanceIDs: c623000092bd00002ebc0000d6bb0000f462000000000000067f0000ba0f010094570000e20e01003856000058480100a0c20000f4c50000164c0100c4700000
+=======
+    m_ExpandedInstanceIDs: c623000092bd00002ebc0000d6bb0000f462000000000000067f0000ba0f010094570000e20e0100b8580000ec570000469f0000a0a00000f4fc0000f89300003495000014fe00007e940000
+>>>>>>> 240f5c28 (feat: create a scene for preparation phase (chunk: others))
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -550,10 +755,17 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
+<<<<<<< HEAD
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
 --- !u!114 &15
+=======
+    m_GridSize: 58
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 207
+--- !u!114 &16
+>>>>>>> 240f5c28 (feat: create a scene for preparation phase (chunk: others))
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -575,13 +787,18 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1442
     y: 73
+<<<<<<< HEAD
     width: 477
     height: 918
+=======
+    width: 453
+    height: 926
+>>>>>>> 240f5c28 (feat: create a scene for preparation phase (chunk: others))
   m_ViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: 353
+    m_CachedPref: 320
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
@@ -590,7 +807,11 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
+<<<<<<< HEAD
 --- !u!114 &16
+=======
+--- !u!114 &17
+>>>>>>> 240f5c28 (feat: create a scene for preparation phase (chunk: others))
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -612,15 +833,26 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
+<<<<<<< HEAD
     width: 316
     height: 647
+=======
+    width: 274
+    height: 655
+>>>>>>> 240f5c28 (feat: create a scene for preparation phase (chunk: others))
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: c8f6ffff
       m_LastClickedID: -2360
       m_ExpandedIDs: 8ef9ffff92f9ffff4efbffff30540000
+=======
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: ceaaffff
+>>>>>>> 240f5c28 (feat: create a scene for preparation phase (chunk: others))
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -644,7 +876,11 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
+<<<<<<< HEAD
 --- !u!114 &17
+=======
+--- !u!114 &18
+>>>>>>> 240f5c28 (feat: create a scene for preparation phase (chunk: others))
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -666,12 +902,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 317
     y: 73
+<<<<<<< HEAD
     width: 1123
     height: 647
+=======
+    width: 1189
+    height: 655
+>>>>>>> 240f5c28 (feat: create a scene for preparation phase (chunk: others))
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
-  m_Gizmos: 1
+  m_Gizmos: 0
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
@@ -680,9 +921,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: -0.07110318, y: 1.2679181, z: 2.6679385}
     speed: 2
     m_Value: {x: -0.07110318, y: 1.2679181, z: 2.6679385}
+=======
+    m_Target: {x: -3.3739777, y: -5.7592034, z: -8.916786}
+    speed: 2
+    m_Value: {x: -3.3739777, y: -5.7592034, z: -8.916786}
+>>>>>>> 240f5c28 (feat: create a scene for preparation phase (chunk: others))
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -729,6 +976,7 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: -0.09877451, y: 0.052059226, z: -0.0040659993, w: -0.9939093}
     speed: 2
     m_Value: {x: -0.09875778, y: 0.052050408, z: -0.0040653106, w: -0.993741}
@@ -736,13 +984,22 @@ MonoBehaviour:
     m_Target: 0.36530596
     speed: 2
     m_Value: 0.36530596
+=======
+    m_Target: {x: 0.13107134, y: -0.853665, z: 0.36586115, w: 0.34964657}
+    speed: 2
+    m_Value: {x: 0.1330573, y: -0.8506212, z: 0.36912706, w: 0.34997773}
+  m_Size:
+    m_Target: 6.0046754
+    speed: 2
+    m_Value: 6.0046754
+>>>>>>> 240f5c28 (feat: create a scene for preparation phase (chunk: others))
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1
-    m_SpeedNormalized: 0.5
+    m_Speed: 1.06047
+    m_SpeedNormalized: 0.53
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -760,7 +1017,11 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
+<<<<<<< HEAD
 --- !u!114 &18
+=======
+--- !u!114 &19
+>>>>>>> 240f5c28 (feat: create a scene for preparation phase (chunk: others))
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -826,21 +1087,36 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
+<<<<<<< HEAD
       y: 21
       width: 1123
       height: 626
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 561.5, y: 313}
+=======
+      y: 0
+      width: 1189
+      height: 655
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 594.5, y: 327.5}
+>>>>>>> 240f5c28 (feat: create a scene for preparation phase (chunk: others))
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -561.5
       y: -313
       width: 1123
       height: 626
+=======
+      x: -594.5
+      y: -327.5
+      width: 1189
+      height: 655
+>>>>>>> 240f5c28 (feat: create a scene for preparation phase (chunk: others))
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1123, y: 647}
@@ -849,7 +1125,11 @@ MonoBehaviour:
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: -1
   m_RenderTexture: {fileID: 0}
+<<<<<<< HEAD
 --- !u!114 &19
+=======
+--- !u!114 &20
+>>>>>>> 240f5c28 (feat: create a scene for preparation phase (chunk: others))
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -870,11 +1150,19 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 741
     width: 1441
     height: 250
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &20
+=======
+    y: 749
+    width: 1465
+    height: 250
+  m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &21
+>>>>>>> 240f5c28 (feat: create a scene for preparation phase (chunk: others))
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
