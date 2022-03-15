@@ -13,11 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-<<<<<<< HEAD
-      ticks: 637817396044664514
-=======
       ticks: 637822366254015896
->>>>>>> 240f5c28 (feat: create a scene for preparation phase (chunk: others))
     m_Hash: 4275217313
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -1096,10 +1092,7 @@ m_PackageAssets:
         - 2.0.0-pre.6
         - 2.0.0-pre.7
         - 2.0.0
-<<<<<<< HEAD
-=======
         - 2.0.1
->>>>>>> 240f5c28 (feat: create a scene for preparation phase (chunk: others))
         compatible:
         - 0.0.6-preview
         - 0.9.0-preview
@@ -1119,10 +1112,7 @@ m_PackageAssets:
         - 2.0.0-pre.6
         - 2.0.0-pre.7
         - 2.0.0
-<<<<<<< HEAD
-=======
         - 2.0.1
->>>>>>> 240f5c28 (feat: create a scene for preparation phase (chunk: others))
         verified: 
       dependencies:
       - name: com.unity.inputsystem
